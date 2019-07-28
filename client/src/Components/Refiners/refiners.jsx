@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-
+import Select from 'react-select'
+import '../../Styling/refiners.css';
 
 class FilterBar extends Component {
     constructor(props) {
@@ -8,8 +9,9 @@ class FilterBar extends Component {
     
     render() {
         return (
-            <div>
-                <div>
+            <div className='Filter-wrapper'>
+                <div className='Filter-bar'>
+                    <Select></Select>
                 </div>
             </div>
         )

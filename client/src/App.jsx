@@ -29,9 +29,11 @@ state = {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Stock Options Analysis</h1>
+          <h1>Stock Options Analysis</h1>
         </header>
-        <MasterComponent className="App-body">{this.state.data}</MasterComponent>
+        <div className="App-body">
+          <MasterComponent>{this.state.data}</MasterComponent>
+        </div>
       </div>
     );
   }

@@ -3,6 +3,7 @@ import FilterBar from './Refiners/refiners';
 import Report from './Report/report';
 
 
+
 class MasterComponent extends Component {
     constructor(props) {
         super(props);
@@ -11,10 +12,8 @@ class MasterComponent extends Component {
     render() {
         return (
         <div>
-            <div>
-                <FilterBar/>
-                <Report/>
-            </div>
+            <FilterBar/>
+            <Report/>
         </div>
         )
     }

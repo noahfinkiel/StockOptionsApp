@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../../Styling/report.css';
 
 
 class Report extends Component {
@@ -7,7 +8,7 @@ class Report extends Component {
     }
     render() {
         return (
-            <div>
+            <div className='Report-wrapper'>
                 <div>
                 </div>
             </div>
